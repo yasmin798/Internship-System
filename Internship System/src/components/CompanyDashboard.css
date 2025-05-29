@@ -1,0 +1,88 @@
+/*.company-dashboard {
+  padding: 2rem;
+}
+
+.company-dashboard h2 {
+  text-align: center;
+  color: var(--dark-blue);
+  margin-bottom: 1.5rem;
+}
+
+/* Nav Tabs */
+/*.nav-tabs {
+  border-bottom: 2px solid var(--medium-blue);
+  margin-bottom: 2rem;
+}
+
+.nav-tabs .nav-link {
+  color: var(--light-blue);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px 4px 0 0;
+  transition: background 0.2s ease;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: var(--medium-blue);
+  color: var(--white);
+}
+
+.nav-tabs .nav-link:hover {
+  background-color: var(--light-blue);
+  color: var(--white);
+}*/
+/* styles/companyDashboard.css */
+
+.company-dashboard {
+  padding: 2rem;
+  background-color: #f1f1f1;
+  min-height: 100vh;
+}
+
+.dashboard-title {
+  text-align: center;
+  color: #1d3557;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+  border-bottom: 2px solid #457b9d;
+}
+
+.tab-link {
+  background-color: transparent;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  color: #457b9d;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 6px 6px 0 0;
+  transition: background-color 0.2s ease;
+}
+
+.tab-link:hover {
+  background-color: #a8dadc;
+  color: #fff;
+}
+
+.tab-link.active {
+  background-color: #457b9d;
+  color: #fff;
+}
+
+.dashboard-content {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}

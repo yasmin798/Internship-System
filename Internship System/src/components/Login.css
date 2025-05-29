@@ -1,0 +1,101 @@
+css
+.login-container {
+  background-color: rgba(255, 255, 255, 0.95); /* White with slight transparency */
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide-up {
+  animation: slideUp 0.8s ease-out forwards;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.login-container h2 {
+  margin-bottom: 30px;
+  color: #05445E; /* Navy Blue */
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 14px;
+  border: 2px solid #D4F1F4; /* Baby Blue */
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #fff;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #189AB4; /* Blue Grotto */
+  box-shadow: 0 0 8px rgba(24, 154, 180, 0.3);
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #05445E; /* Navy Blue */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #189AB4; /* Blue Grotto */
+}
+
+.error {
+  color: #ff4d4d;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+@media (max-width: 600px) {
+  .login-container {
+    width: 90%;
+    padding: 30px;
+  }
+
+  .login-container h2 {
+    font-size: 28px;
+  }
+
+  .form-group input {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 12px;
+  }
+}

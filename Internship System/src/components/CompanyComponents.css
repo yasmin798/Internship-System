@@ -1,0 +1,114 @@
+/* CompanyComponents.css */
+
+/* Shared Card Layout */
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #000000;
+}
+
+/* Headings */
+.card h4,
+.card h5 {
+  color: #1d3557;
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.btn-primary {
+  background-color: #457b9d;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #1d3557;
+}
+
+.btn-outline-primary {
+  background-color: transparent;
+  border: 1px solid #457b9d;
+  color: #457b9d;
+}
+
+.btn-outline-primary:hover {
+  background-color: #457b9d;
+  color: #ffffff;
+}
+
+/* Table Styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  border: 1px solid #457b9d;
+}
+
+.table th {
+  background-color: #1d3557;
+  color: #ffffff;
+}
+
+.table tr:nth-child(even) {
+  background-color: #a8dadc;
+}
+
+/* Forms */
+.form-label {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.form-control,
+.form-select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #457b9d;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.form-control:focus,
+.form-select:focus {
+  outline: none;
+  border-color: #a8dadc;
+  box-shadow: 0 0 0 0.2rem rgba(119, 170, 221, 0.3);
+}
+
+/* Text utility */
+.text-summer {
+  color: #1d3557;
+}
+
+/* Badge */
+.badge {
+  padding: 0.35em 0.65em;
+  font-size: 0.75em;
+  border-radius: 0.25rem;
+  font-weight: 600;
+}
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
